@@ -81,13 +81,5 @@ public class Ponto2D {
         
         return (int)Math.hypot(disty, distx);
     }
-    
-    /**
-     * Método toString para retornar os valores de x e y 
-     * @return toString de x e y
-     */
-    @Override
-    public String toString() {
-        return "Ponto2D {" + "x = " + x + "; y = " + y + '}';
-    }
+  
 }
