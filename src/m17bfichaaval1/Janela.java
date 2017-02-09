@@ -178,7 +178,7 @@ public class Janela extends javax.swing.JFrame {
                 * Inicialização da String texto com valores relevantes à operação feita<br>
                 * Escrita desta String no ficheiro
                 */
-                String texto = "Ponto A: ["+aX+" ; "+aY+"] Ponto B: ["+bX+" ; "+bY+"] \nDistância: "+resultado;
+                String texto = "Ponto A: ["+aX+" ; "+aY+"] Ponto B: ["+bX+" ; "+bY+"] \nDistância: "+resultado+"\n\n";
                 ficheiro.write(texto);
                 ficheiro.close();
             }
