@@ -1,0 +1,3 @@
+Ponto A: [2 ; 3] Ponto B: [4 ; 4] 
+Distância: 2.0
+

@@ -69,15 +69,15 @@ public class Ponto2D {
         int distx;
         int disty;
         
-        if(x<=a.getX())
-            distx = a.getX()-x;
+        if(x<=a.x)
+            distx = a.x-x;
         else
-            distx = x-a.getX();
+            distx = x-a.x;
         
-        if(y<=a.getY())
-            disty = a.getY()-y;
+        if(y<=a.y)
+            disty = a.y-y;
         else
-            disty = y-a.getY();
+            disty = y-a.y;
         
         return (int)Math.hypot(disty, distx);
     }
